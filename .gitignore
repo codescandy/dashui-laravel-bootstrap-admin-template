@@ -1,3 +1,24 @@
+/.phpunit.cache
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+.env.backup
+.env.production
+
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+
 # Logs
 logs
 *.log
@@ -6,6 +27,13 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
+npm-debug.log
+yarn-error.log
+
+/.fleet
+/.idea
+/.vscode
+
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -72,12 +100,7 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache

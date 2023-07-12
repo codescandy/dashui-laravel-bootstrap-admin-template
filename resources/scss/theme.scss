@@ -1,0 +1,62 @@
+/*
+=========================================================
+* Dash UI - Bootstrap 5 Admin & Dashboard Theme
+=========================================================
+* Product Page: https://dashui.codescandy.com/
+* Copyright 2023 Codescandy (https://codescandy.com/)
+* Designed and coded by https://codescandy.com
+========================================================= */
+
+// Inter Fonts
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+// Bootstrap functions
+@import "../../node_modules/bootstrap/scss/functions";
+
+// User Variables
+@import "user-variables";
+
+// theme variables
+@import "theme/variables";
+
+//utilities
+@import "theme/utilities";
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Theme
+@import "theme/theme";
+
+// Bootstrap Icons
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
+
+// Material Design Icons
+@import "../../node_modules/@mdi/font/css/materialdesignicons.min.css";
+
+// DropZone
+@import "../../node_modules/dropzone/dist/dropzone.css";
+
+// Prism JS
+@import "../../node_modules/prismjs/themes/prism-okaidia.min.css";
+
+// User
+@import "user";
+
+.heading-permalink {
+    color: transparent;
+    margin-left: -2rem;
+
+    &:hover {
+        color: transparent;
+    }
+
+    &::before {
+        color: rgba(82, 95, 127, 0);
+        content: "#";
+    }
+
+    &:hover:before {
+        color: $primary;
+    }
+}
