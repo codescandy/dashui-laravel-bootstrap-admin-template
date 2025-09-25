@@ -1,14 +1,24 @@
+// import './bootstrap';
+
+// import Alpine from 'alpinejs';
+
+// window.Alpine = Alpine;
+
+// Alpine.start();
+
 // Libs JS
-import '../../node_modules/jquery/dist/jquery';
-import '../../node_modules/bootstrap/dist/js/bootstrap.bundle';
-import '../../node_modules/jquery-slimscroll/jquery.slimscroll';
-import '../../node_modules/feather-icons/dist/feather';
-import '../../node_modules/prismjs/prism';
-import '../../node_modules/apexcharts/dist/apexcharts';
-//import '../../node_modules/dropzone/dist/dropzone-min';
-import '../../node_modules/prismjs/plugins/toolbar/prism-toolbar';
-import '../../node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard';
-import './bootstrap';
+// import '../../node_modules/jquery/dist/jquery';
+// import '../../node_modules/bootstrap/dist/js/bootstrap.bundle';
+// import '../../node_modules/jquery-slimscroll/jquery.slimscroll';
+// import '../../node_modules/feather-icons/dist/feather';
+// import '../../node_modules/prismjs/prism';
+// import '../../node_modules/apexcharts/dist/apexcharts';
+// //import '../../node_modules/dropzone/dist/dropzone-min';
+// import '../../node_modules/prismjs/plugins/toolbar/prism-toolbar';
+// import '../../node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard';
+// import './bootstrap';
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import.meta.glob([
     '../images/**',
