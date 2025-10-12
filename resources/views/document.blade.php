@@ -102,7 +102,7 @@
                             </p>
                             <div>
                                 <ol>
-                                    <li>Unzip the downloaded <code>dashui-free-laravel</code> folder.</li>
+                                    <li>Unzip the downloaded <code>dashui-laravel-bootstrap-admin-template-main</code> folder.</li>
                                     <li>Rename the folder to your project's name</li>
                                     <li> <code>cd</code> to your Laravel app i.e. your project's name</li>
                                     <li><code>npm install</code> : with this command all required dependencies would be
