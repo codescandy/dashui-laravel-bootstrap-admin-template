@@ -1,20 +1,18 @@
 <?php
-
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::get('/', function () { return view('dashboard');})->name('dashboard');
+    Route::get('/billing', function () { return view('billing');})->name('billing');
+    Route::get('/changelog', function () { return view('changelog');})->name('changelog');
+    Route::get('/document', function () { return view('document');})->name('document');
+    Route::get('/pricing', function () { return view('pricing');})->name('pricing');
+    Route::get('/profile', function () { return view('profile');})->name('profile');
+    Route::get('/settings', function () { return view('settings');})->name('settings');
+    Route::get('/layout', function () { return view('layout');})->name('layout');
 });
+
+// 404 Page route, which will be displayed, if specified url is not found.
+Route::fallback(function () {return view('404-error');});
 
 require __DIR__.'/auth.php';

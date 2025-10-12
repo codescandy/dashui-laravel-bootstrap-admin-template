@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Dash UI - Bootstrap 5 Admin & Dashboard Theme
+* Dash UI - Laravel Bootstrap 5 Admin & Dashboard Theme
 =========================================================
 * Product Page: https://dashui.codescandy.com/
 * Copyright 2023 Codescandy (https://codescandy.com/)
@@ -29,7 +29,7 @@
 @import "theme/theme";
 
 // Bootstrap Icons
-@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
+@import "../../node_modules//bootstrap-icons/font/bootstrap-icons.min.css";
 
 // Material Design Icons
 @import "../../node_modules/@mdi/font/css/materialdesignicons.min.css";
@@ -39,6 +39,7 @@
 
 // Prism JS
 @import "../../node_modules/prismjs/themes/prism-okaidia.min.css";
+
 
 // User
 @import "user";
