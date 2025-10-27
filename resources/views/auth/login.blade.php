@@ -22,7 +22,7 @@
                                 <label for="email" class="form-label">{{ __('Username or email') }}</label>
                                 <input id="email" type="email"
                                     class="form-control @error('email') is-invalid @enderror" name="email"
-                                    value="{{ old('email', 'admin@dashui.com') }}" required autocomplete="email" autofocus>
+                                     required autocomplete="email" autofocus>
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -34,7 +34,7 @@
                                 <label for="password" class="form-label">{{ __('Password') }}</label>
                                 <input id="password" type="password"
                                     class="form-control @error('password') is-invalid @enderror" name="password" required
-                                    autocomplete="current-password" value="sandip@gmail.com">
+                                    autocomplete="current-password" >
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>

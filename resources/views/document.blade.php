@@ -102,7 +102,7 @@
                             </p>
                             <div>
                                 <ol>
-                                    <li>Unzip the downloaded <code>dashui-free-laravel</code> folder.</li>
+                                    <li>Unzip the downloaded <code>dashui-laravel-bootstrap-admin-template-main</code> folder.</li>
                                     <li>Rename the folder to your project's name</li>
                                     <li> <code>cd</code> to your Laravel app i.e. your project's name</li>
                                     <li><code>npm install</code> : with this command all required dependencies would be
@@ -113,11 +113,13 @@
                                         configurations (mainly the database configuration)</li>
                                     <li><code>php artisan key:generate</code> : run this command to generate the new key.
                                     </li>
-                                    <li><code>php artisan optimize:clear</code> : run this command to clear all cache from
-                                        the project.</li>
                                     <li><code>php artisan migrate:fresh</code>: run this command to generate fresh migration
                                         tables.(This command will remove exisiting tables if any from Database and create
                                         new one.)</li>
+
+                                        <li>Navigate to <code>http://localhost:8000</code>
+                                        or <code>http://127.0.0.1:8000</code> it will show you login screen, here click on create new account and it's done, later you can use the same credentials to login.
+                                    </li>
                                 </ol>
                             </div>
 
